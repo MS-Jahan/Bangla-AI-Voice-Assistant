@@ -21,3 +21,10 @@ After the installation, run the `main.py` file.
 
 On first run, you'll be prompted to log into your Google account. Don't close the browser window, it should close automatically.
 When it says "Say Something" in the terminal, say something to the mic in Bangla.
+
+## Links
+Source: https://github.com/MS-Jahan/Bangla-AI-Voice-Assistant
+
+Presentation: https://docs.google.com/presentation/d/15BHxU8sqFw_1tB1tRCsm7UuAyvFNEolYuCUg12-P3XI/
+
+Video Demo: https://youtu.be/3VHht3nIheU
