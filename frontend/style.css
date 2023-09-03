@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .circle-container {
+    position: relative;
+  }
+  
+  #visualizer {
+    border-radius: 50%;
+    border: 2px solid #333;
+    animation: wobble 1s infinite;
+  }
+  
+  @keyframes wobble {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-5px) rotate(-3deg);
+    }
+    75% {
+      transform: translateX(5px) rotate(3deg);
+    }
+  }
+  
