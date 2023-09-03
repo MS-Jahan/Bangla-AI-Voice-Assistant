@@ -8,7 +8,7 @@ def get_cookies():
     # save browser cache to a folder
     script_directory = pathlib.Path().absolute()
     # open google bard
-    driver = uc.Chrome(user_data_dir=f"{script_directory}\\userdata".replace("\\", "/"), headless=True)
+    driver = uc.Chrome(user_data_dir=f"{script_directory}\\userdata".replace("\\", "/"), headless=False)
     driver.get("https://bard.google.com")
     time.sleep(100)
     # dump all cookies to a json file
